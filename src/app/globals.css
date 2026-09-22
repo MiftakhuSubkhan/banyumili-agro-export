@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
+
+@theme {
+  --color-primary-green: #1B4332;
+  --color-deep-dark: #081C15;
+  --color-accent-gold: #C89B3C;
+  --color-earth-brown: #8B5E34;
+  --color-warm-cream: #F8F3E7;
+
+  --color-brand-primary: #1B4332;
+  --color-brand-dark: #081C15;
+  --color-brand-gold: #C89B3C;
+  --color-brand-brown: #8B5E34;
+  --color-brand-cream: #F8F3E7;
+
+  --font-serif: var(--font-playfair), "Playfair Display", Georgia, serif;
+  --font-sans: var(--font-inter), Inter, system-ui, sans-serif;
+  --font-heading: var(--font-playfair), "Playfair Display", Georgia, serif;
+  --font-body: var(--font-inter), Inter, system-ui, sans-serif;
+}
+
+:root {
+  --background: #F8F3E7;
+  --foreground: #081C15;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), Inter, system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Selection */
+::selection {
+  background-color: #C89B3C;
+  color: #081C15;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #081C15;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1B4332;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C89B3C;
+}
+
+/* Custom Utilities for Premium Look */
+.glass-dark {
+  background: rgba(8, 28, 21, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(200, 155, 60, 0.15);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(27, 67, 50, 0.08);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F0DBA5 0%, #C89B3C 50%, #A47724 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #D7B059 0%, #C89B3C 50%, #B08329 100%);
+}
+
+.bg-forest-gradient {
+  background: linear-gradient(145deg, #1B4332 0%, #0F281E 60%, #081C15 100%);
+}

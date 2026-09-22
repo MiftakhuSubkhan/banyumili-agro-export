@@ -1,0 +1,175 @@
+import { Product } from "@/types/product";
+
+export const PRODUCTS: Product[] = [
+  {
+    id: "indonesian-specialty-coffee",
+    slug: "coffee",
+    name: "Indonesian Specialty Coffee",
+    indonesianName: "Kopi Indonesia",
+    tagline: "Single-origin Arabica & robust fine Robusta from volcanic highlands",
+    category: "coffee",
+    origin: "Jawa Tengah",
+    harvestSeason: "May – September (Arabica) & June – October (Robusta)",
+    shortDescription:
+      "High quality green coffee beans with distinctive regional aroma and rich flavor profiles curated from Indonesia's leading coffee producing landscapes.",
+    fullDescription:
+      "Banyumili Agro Export offers world-renowned Indonesian specialty coffees. From the full-bodied, earthy notes of Sumatra Mandheling to the floral, complex acidity of Aceh Gayo and bold, chocolatey Lampung Robusta. We manage strict quality control, cherry sorting, moisture stabilization, and vacuum or GrainPro packaging to protect bean integrity across long-distance sea transit.",
+    heroImage: "/images/products/kopi.jpeg",
+    galleryImages: [
+      "/images/products/kopi.jpeg",
+    ],
+    keyFeatures: [
+      "Grade 1 Specialty / Fine Robusta selection",
+      "Strict hand-sorting and triple-screen grading",
+      "GrainPro inner hermetic bag protection",
+      "Traceable single-origin cooperatives",
+    ],
+    specifications: [
+      { label: "Grade", value: "Grade 1 / Specialty Grade", standard: "SCA Standard" },
+      { label: "Moisture Content", value: "Max 12.5%", standard: "ISO 4149" },
+      { label: "Defect Rate", value: "Max 8 - 11 defects per 300g", standard: "ICO Spec" },
+      { label: "Screen Size", value: "Size 16 - 19 (90% min)", standard: "Mesh 6.5 - 7.5mm" },
+      { label: "Foreign Matter", value: "Max 0.2%", standard: "Export Grade" },
+      { label: "Processing", value: "Washed / Wet Hulled / Natural / Honey" },
+    ],
+    packagingOptions: [
+      {
+        type: "GrainPro + Jute Bag",
+        netWeight: "60 kg",
+        grossWeight: "61 kg",
+        details: "Multi-layer airtight GrainPro liner inside heavy duty export jute bag.",
+      },
+      {
+        type: "Vacuum Box Packaging",
+        netWeight: "30 kg (2 x 15 kg)",
+        details: "Hermetically sealed foil bricks inside robust 5-ply corrugated carton box.",
+      },
+    ],
+    gradesAvailable: [
+      "Sumatra Mandheling Grade 1 (Washed / Semi-Washed)",
+      "Aceh Gayo Specialty (Single Origin)",
+      "Sulawesi Toraja Kalosi Grade 1",
+      "Lampung Fine Robusta Grade 1 (Screen 18)",
+    ],
+    moistureContent: "11.5% - 12.5%",
+    shelfLife: "24 Months in hermetic dry storage",
+    hsCode: "0901.11.10 (Not Roasted, Not Decaffeinated)",
+    moq: "1 x 20ft FCL (~18 - 19.2 Metric Tons) / LCL sample batches available",
+    incoterms: ["FOB Tanjung Priok / Belawan", "CIF Destination Port", "CFR"],
+    certifications: ["Phytosanitary Certificate", "Certificate of Origin (COO / Form A)", "Halal", "FDA Registered"],
+    flavorProfileOrAroma: ["Dark Chocolate", "Spicy Herbal", "Cedar", "Sweet Tobacco", "Brown Sugar"],
+  },
+  {
+    id: "lampung-black-pepper",
+    slug: "black-pepper",
+    name: "High-Density Black Pepper",
+    indonesianName: "Lada Hitam",
+    tagline: "Lampung origin black pepper with high piperine content & pungent aroma",
+    category: "spices",
+    origin: "Lampung & South Sumatra, Indonesia",
+    harvestSeason: "July – October",
+    shortDescription:
+      "Indonesian black pepper with a pungent aroma, dark uniform color, and superior bulk density, highly demanded by global spice processors.",
+    fullDescription:
+      "Indonesian Lampung Black Pepper is internationally recognized as the benchmark for bold pungency, high piperine content (active alkaloid), and exceptional bulk density. Sun-dried and machine cleaned to remove light berries, dust, and pinheads, our black pepper satisfies both ASTA and FAQ international standards for global food manufacturers and spice grinders.",
+    heroImage: "/images/products/lada-hitam.jpeg",
+    galleryImages: [
+      "/images/products/lada-hitam.jpeg",
+    ],
+    keyFeatures: [
+      "High bulk density (550 - 580 g/L)",
+      "High piperine content (min 4.0% - 5.5%)",
+      "Spiral machine-cleaned & metal detected",
+      "Low moisture to prevent mold during maritime transit",
+    ],
+    specifications: [
+      { label: "Grade", value: "ASTA Machine Cleaned / FAQ Grade", standard: "ESA / ASTA" },
+      { label: "Bulk Density", value: "550 g/L – 580 g/L", standard: "ISO 959-1" },
+      { label: "Moisture Content", value: "Max 12.0%", standard: "Oven Drying" },
+      { label: "Piperine Content", value: "Min 4.0% - 5.5%", standard: "HPLC Analysis" },
+      { label: "Extraneous Matter", value: "Max 0.5% (ASTA) / Max 1.0% (FAQ)", standard: "ASTA" },
+      { label: "Volatile Oil", value: "Min 2.0% - 3.0%", standard: "Distillation" },
+    ],
+    packagingOptions: [
+      {
+        type: "PP Woven Bag with Inner Liner",
+        netWeight: "25 kg / 50 kg",
+        details: "Strong UV-stabilized polypropylene bags with moisture-barrier PE inner bag.",
+      },
+      {
+        type: "Multi-Wall Kraft Paper Bag",
+        netWeight: "25 kg",
+        details: "Food-grade 3-ply kraft paper bag with sealed polyethylene lining.",
+      },
+    ],
+    gradesAvailable: [
+      "Lampung Black Pepper ASTA Clean (560 - 580 g/L)",
+      "Lampung Black Pepper FAQ (500 - 550 g/L)",
+      "Pinhead / Light Berries (for oleoresin extraction)",
+    ],
+    moistureContent: "Max 12.0%",
+    shelfLife: "24 Months in cool, dry storage",
+    hsCode: "0904.11.10 (Black Pepper, Neither Crushed nor Ground)",
+    moq: "1 x 20ft FCL (~14 - 15 Metric Tons) / LCL on request",
+    incoterms: ["FOB Panjang / Tanjung Priok", "CIF Destination Port", "CFR"],
+    certifications: ["Phytosanitary Certificate", "Fumigation Certificate", "Certificate of Origin", "SGS / Sucofindo Quality Inspection"],
+    flavorProfileOrAroma: ["Pungent", "Sharp Peppery", "Woody", "Warm Spice"],
+  },
+  {
+    id: "kerinci-cassia-cinnamon",
+    slug: "cinnamon",
+    name: "Premium Cassia Cinnamon",
+    indonesianName: "Kayu Manis",
+    tagline: "Kerinci (Korintje) Cassia vera with intense sweet warmth & high oil density",
+    category: "cinnamon",
+    origin: "Kerinci Regency, Jambi & West Sumatra",
+    harvestSeason: "Year-Round (Peak: September – December)",
+    shortDescription:
+      "All-natural Indonesian cassia cinnamon with signature aromatic warmth and export-grade oil content for culinary, pharmaceutical, and beverage industries.",
+    fullDescription:
+      "Harvested from the lush slopes of Mount Kerinci in Sumatra, Indonesian Korintje Cassia (Cinnamomum burmannii) produces the sweetest, cleanest cinnamon flavor in the world. Naturally stripped, carefully cured, and sun-dried to form tight, uniform quills or cut rolls. Our cassia features high volatile cinnamaldehyde oil levels without adulterants or chemical bleaching.",
+    heroImage: "/images/products/kayu-manis.jpeg",
+    galleryImages: [
+      "/images/products/kayu-manis.jpeg",
+    ],
+    keyFeatures: [
+      "Kerinci / Padang Korintje origin",
+      "Volatile Oil content 2.5% – 3.5%",
+      "Beautiful double-curled quills & uniform cut lengths",
+      "Available in whole sticks, cut rolls, broken, or tea bag cut",
+    ],
+    specifications: [
+      { label: "Grade", value: "Korintje AA / Korintje A / Clean Broken (KBBC)", standard: "Export Standard" },
+      { label: "Volatile Oil", value: "Min 2.5% – 3.5%", standard: "Steam Distillation" },
+      { label: "Moisture Content", value: "Max 13.5%", standard: "Karl Fischer / Oven" },
+      { label: "Roll Length", value: "6 cm, 8 cm, 10 cm, 12 cm, or custom stick sizes" },
+      { label: "Foreign Matter", value: "Max 0.5% (AA / A Grade)" },
+      { label: "Thickness", value: "1.0 mm – 2.5 mm thick bark quills" },
+    ],
+    packagingOptions: [
+      {
+        type: "Corrugated Carton Box",
+        netWeight: "10 kg / 20 kg / 25 kg",
+        details: "Heavy-duty 5-ply export master carton with inner poly barrier bag.",
+      },
+      {
+        type: "Pressed Jute / PP Bale",
+        netWeight: "50 kg",
+        details: "Baled and strapped for bulk whole stick shipments.",
+      },
+    ],
+    gradesAvailable: [
+      "Korintje AA Cut Sticks (6cm / 8cm / 10cm quills)",
+      "Korintje A (Hand Selected Long Sticks)",
+      "Korintje Clean Broken / KBBC (for grinding and spice blends)",
+      "Cassia Cinnamon Powder (80 - 100 mesh)",
+    ],
+    moistureContent: "Max 13.5%",
+    shelfLife: "36 Months stored in dry ambient temperature",
+    hsCode: "0906.11.00 / 0906.19.00 (Cinnamon & Cinnamon-Tree Flowers)",
+    moq: "1 x 20ft FCL (~10 - 12 Metric Tons for quills; 14 MT for broken) / LCL on request",
+    incoterms: ["FOB Teluk Bayur / Tanjung Priok", "CIF Destination Port", "CFR"],
+    certifications: ["Phytosanitary Certificate", "Certificate of Origin", "Halal", "FDA Compliance"],
+    flavorProfileOrAroma: ["Sweet Warmth", "Intense Cinnamaldehyde", "Spicy Woody", "Subtle Floral"],
+  },
+];
