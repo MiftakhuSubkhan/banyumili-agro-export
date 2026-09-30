@@ -8,8 +8,8 @@ export function FloatingWhatsApp() {
 
   const waText =
     language === "ID"
-      ? "Halo Tim Banyumili Agro Export, saya tertarik berdiskusi mengenai komoditas ekspor (Kopi, Lada Hitam, Kayu Manis)."
-      : "Hello Banyumili Agro Export team, I am interested in discussing agricultural export commodities (Coffee, Black Pepper, Cinnamon).";
+      ? "Halo Tim Banyumili Agro Export, saya tertarik berdiskusi mengenai ekspor Premium Sun-Dried Cascara (Kulit Kopi Kering)."
+      : "Hello Banyumili Agro Export team, I am interested in discussing export opportunities for Premium Sun-Dried Cascara (Coffee Husk).";
 
   const waUrl = `https://wa.me/6285624015416?text=${encodeURIComponent(waText)}`;
 

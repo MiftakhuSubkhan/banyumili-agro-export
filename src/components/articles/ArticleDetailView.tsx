@@ -191,17 +191,7 @@ export function ArticleDetailView({
             <div className="pt-4 space-y-8 text-sm sm:text-base text-[#081C15]/85 leading-relaxed font-normal">
               {/* Introduction Paragraph */}
               <p className="leading-relaxed sm:text-lg text-[#081C15]/90 font-light">
-                {isId
-                  ? article.slug === "peluang-ekspor-kopi-indonesia-di-pasar-global"
-                    ? "Permintaan kopi spesialti asal Indonesia terus menunjukkan tren positif di pasar internasional, terutama di kawasan Eropa, Amerika Utara, dan Asia Timur. Keanekaragaman geografis dan kesuburan tanah vulkanik kepulauan nusantara melahirkan profil rasa unik yang sulit ditandingi oleh negara produsen lain."
-                    : article.slug === "mengapa-lada-hitam-indonesia-diminati-dunia"
-                    ? "Lada hitam asal Indonesia dengan kualitas ekspor premium telah lama memegang reputasi bergengsi di industri rempah global. Aroma pedasnya yang tajam, warna hitam pekat, serta konsistensi densitasnya menjadikan komoditas ini bahan baku utama bagi industri pengolahan pangan, ekstraksi minyak atsiri, dan produsen bumbu internasional."
-                    : "Indonesia merupakan salah satu eksportir kayu manis terbesar di dunia, dengan jenis Cassia Vera (terkenal sebagai Korintje Cinnamon) sebagai produk unggulan utama. Kulit kayu manis jenis ini terkenal beraroma manis hangat alami, bertekstur tebal, dan memiliki konsentrasi minyak atsiri yang melimpah."
-                  : article.slug === "peluang-ekspor-kopi-indonesia-di-pasar-global"
-                  ? "Demand for Indonesian specialty single-origin coffees continues to demonstrate a strong upward trajectory in the international market, particularly across Europe, North America, and East Asia. The nation's diverse geographical microclimates and volcanic mineral-rich soils produce distinctive flavor profiles that remain unmatched by other producing regions."
-                  : article.slug === "mengapa-lada-hitam-indonesia-diminati-dunia"
-                  ? "Indonesian premium export-grade black pepper has long enjoyed a world-class reputation within the global spice industry. Its pungent sharp aroma, bold dark berry color, and dense uniform structure make it an indispensable raw material for international food manufacturers, oleoresin extractors, and seasoning processors worldwide."
-                  : "Indonesia stands as one of the world's largest exporters of cinnamon, with Indonesian Korintje Cassia Vera (Cinnamomum burmannii) as its crown jewel. Harvested from the slopes of Mount Kerinci in Sumatra, this cinnamon is celebrated globally for its naturally sweet, warm aromatic profile, thick bark texture, and abundant volatile essential oil content."}
+                {isId ? article.summary : article.summaryEn}
               </p>
 
               {/* Structured Sections */}

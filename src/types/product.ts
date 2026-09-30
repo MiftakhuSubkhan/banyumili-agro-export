@@ -17,7 +17,7 @@ export interface Product {
   name: string;
   indonesianName: string;
   tagline: string;
-  category: "coffee" | "spices" | "cinnamon";
+  category: "beverage-cascara" | "feed-grade" | "cascara" | "animal-feed" | "coffee" | "spices" | "cinnamon";
   origin: string;
   harvestSeason: string;
   shortDescription: string;

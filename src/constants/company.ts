@@ -2,12 +2,12 @@ import { CompanyInfo, ValuePillar, StatItem } from "@/types/company";
 
 export const COMPANY_INFO: CompanyInfo = {
   name: "Banyumili Agro Export",
-  tagline: "Connecting Indonesia's Finest Coffee & Spices To The World",
-  taglineId: "Menghadirkan Kopi & Rempah Terbaik Indonesia ke Seluruh Dunia",
+  tagline: "Premier Indonesian Exporter of Sun-Dried Coffee Husk for Livestock Feed",
+  taglineId: "Eksportir Terpercaya Kulit Kopi Kering (Feed Grade) untuk Pakan Ternak Global",
   shortBio:
-    "Banyumili Agro Export is an Indonesian agricultural commodity export company dedicated to supplying high-grade specialty coffee, Lampung black pepper, and Kerinci cassia cinnamon directly from trusted farmer networks to international B2B importers.",
+    "Banyumili Agro Export is a specialized Indonesian agricultural exporter producing export-grade sun-dried coffee husk for livestock feed. We supply high-fiber feed ingredients for dairy cattle, beef ruminants, and global livestock farming.",
   fullBio:
-    "Banyumili Agro Export adalah perusahaan ekspor hasil pertanian Indonesia yang berfokus pada komoditas kopi, lada hitam, dan kayu manis. Kami berkomitmen untuk menghubungkan potensi pertanian lokal dengan pasar internasional melalui produk berkualitas, kemitraan yang berkelanjutan, serta layanan ekspor yang profesional.",
+    "Banyumili Agro Export adalah produsen dan eksportir spesialis bahan baku pakan ternak berbahan dasar kulit kopi kering olahan (Sun-Dried Coffee Husk for Livestock Feed) dari Indonesia. Mengoptimalkan potensi hasil samping perkebunan kopi di sentra dataran tinggi Jawa Tengah, kami memproduksi pakan sumber serat dan energi berkualitas tinggi melalui penjemuran higienis, de-stoning, dan sortasi ketat. Produk kami dirancang khusus untuk memenuhi standar nutrisi peternakan sapi perah, sapi potong, dan industri pakan ternak global dengan jaminan bebas mikotoksin/aflatoksin, kadar serat teruji, dan kestabilan suplai kontainer sepanjang tahun.",
   established: 2020,
   originCountry: "Boyolali, Jawa Tengah, Indonesia",
   headquarters: "Boyolali, Jawa Tengah, Indonesia",
@@ -24,50 +24,50 @@ export const COMPANY_INFO: CompanyInfo = {
 export const VALUE_PILLARS: ValuePillar[] = [
   {
     id: "sourcing",
-    title: "Trusted Sourcing",
-    titleId: "Sourcing Terpercaya",
+    title: "Highland Supply Security",
+    titleId: "Pasokan Masif & Berkelanjutan",
     description:
-      "Working directly in close partnership with local smallholder farmers and certified cooperatives across Indonesia.",
+      "Direct partnerships with coffee processing wet mills across Central Java, guaranteeing massive and continuous raw pulp supply year-round.",
     descriptionId:
-      "Bekerja sama dengan petani dan pemasok lokal pilihan di berbagai wilayah Indonesia.",
+      "Kemitraan langsung dengan pabrik pengolahan kopi di Jawa Tengah menjamin kepastian pasokan bahan baku secara masif dan kontinu.",
     icon: "Sprout",
   },
   {
     id: "quality",
-    title: "Premium Quality",
-    titleId: "Kualitas Premium",
+    title: "Nutritional Integrity & Safety",
+    titleId: "Standar Nutrisi & Bebas Toksin",
     description:
-      "Rigorous quality control, density testing, and international certification standards before dispatch.",
+      "Precision solar/kiln drying and de-stoning with strict lab verification for Crude Protein, Digestible Fiber, and negative Aflatoxin levels.",
     descriptionId:
-      "Produk melalui proses seleksi dan kontrol kualitas sesuai standar ekspor internasional.",
+      "Pengeringan terkontrol, penghilangan debu/batu, dan uji laboratorium terakreditasi untuk kadar protein, serat, dan bebas aflatoksin.",
     icon: "Award",
   },
   {
     id: "reach",
-    title: "Global Reach",
-    titleId: "Jangkauan Global",
+    title: "Global Maritime Logistics",
+    titleId: "Kesiapan Logistik Ekspor Pelabuhan",
     description:
-      "Serving international buyers across Europe, North America, Middle East, and Asia with consistent supply.",
+      "Heavy-duty 50kg PP bags and 1,000kg Jumbo Bulk Bags, containerized and shipped via Tanjung Emas Port (IDSRG) under FOB/CIF/CFR terms.",
     descriptionId:
-      "Mendukung kebutuhan pasar internasional dengan pasokan yang konsisten dan terpercaya.",
+      "Pengemasan karung 50kg dan Jumbo Bag 1 ton dengan stuffing kontainer FCL cepat via Pelabuhan Tanjung Emas (IDSRG), Semarang.",
     icon: "Globe2",
   },
 ];
 
 export const TRUST_BADGES = [
   {
-    title: "Premium Quality Products",
-    titleId: "Kualitas Produk Premium",
+    title: "High-Nutrition Feed Grade",
+    titleId: "Mutu Pakan Bernutrisi Tinggi",
     icon: "Leaf",
   },
   {
-    title: "Sustainable Partnership",
-    titleId: "Kemitraan Berkelanjutan",
+    title: "Aflatoxin & Mycotoxin Safe",
+    titleId: "Bebas Cemaran & Aflatoksin",
     icon: "Users",
   },
   {
-    title: "Global Market Reach",
-    titleId: "Jangkauan Pasar Global",
+    title: "Bulk Ocean Freight Ready",
+    titleId: "Kesiapan Muat Kargo Kontainer",
     icon: "Globe",
   },
 ];
@@ -77,24 +77,24 @@ export const COMPANY_STATS: StatItem[] = [
     value: "100%",
     label: "Indonesian Origin",
     labelId: "Asal Indonesia Murni",
-    description: "Ethically harvested from primary producing regions",
+    description: "Sourced directly from Central Java highland processing mills",
   },
   {
-    value: "25+",
+    value: "20+",
     label: "Export Destination Countries",
     labelId: "Negara Tujuan Ekspor",
-    description: "Trusted by importers across Europe, Asia & the Americas",
+    description: "Trusted by dairy farms, beef feedlots & commercial feed mills",
   },
   {
     value: "1,200+",
     label: "Partner Farmers Empowered",
-    labelId: "Mitra Petani Berdaya",
-    description: "Direct fair-trade collaboration supporting local communities",
+    labelId: "Mitra Petani & Pabrik Kopi",
+    description: "Empowering rural communities through agricultural circularity",
   },
   {
-    value: "5,000+",
-    label: "Metric Tons Export Capacity",
-    labelId: "Kapasitas Ekspor per Tahun",
-    description: "Scalable volume with strict grade integrity",
+    value: "10,000+",
+    label: "Metric Tons Annual Capacity",
+    labelId: "Kapasitas Pasokan per Tahun",
+    description: "Continuous volume capacity in whole dried husk & screened flakes",
   },
 ];

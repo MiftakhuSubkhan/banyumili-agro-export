@@ -48,12 +48,12 @@ export function AboutClient() {
                 <p>
                   {language === "ID"
                     ? COMPANY_INFO.fullBio
-                    : "Banyumili Agro Export was founded with a clear vision: to introduce Indonesia's finest agricultural commodities to the global marketplace through strict quality control, equitable farmer partnerships, and dependable international maritime logistics."}
+                    : COMPANY_INFO.fullBio}
                 </p>
                 <p>
                   {t(
-                    "Dengan pengalaman berkolaborasi langsung bersama petani lokal di Sumatera dan berbagai daerah penghasil komoditas utama, kami memastikan rantai pasok yang transparan, bebas perantara spekulatif, dan memiliki kontrol mutu yang ketat.",
-                    "Working directly alongside local farming cooperatives in Sumatra and primary harvesting regions across Indonesia, we establish a transparent supply chain devoid of speculative middlemen, enforcing rigorous quality assurance from soil to shipment."
+                    "Dengan pengalaman berkolaborasi langsung bersama pabrik pengolahan kopi dan peternakan di Jawa Tengah, kami mengontrol mutu dari pengumpulan kulit segar, pengeringan higienis, hingga pelleting presisi untuk menghasilkan bahan pakan bernutrisi tinggi, bebas mikotoksin, dan siap ekspor.",
+                    "Working directly alongside coffee processing mills and agricultural centers across Central Java, we oversee quality control from raw pulp collection and hygienic dehydration to precision pelletizing, delivering mycotoxin-safe, nutrient-dense feed ingredients for the global livestock market."
                   )}
                 </p>
               </div>

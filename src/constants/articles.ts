@@ -2,300 +2,199 @@ import { Article } from "@/types/article";
 
 export const ARTICLES: Article[] = [
   {
-    id: "peluang-ekspor-kopi-indonesia-di-pasar-global",
-    slug: "peluang-ekspor-kopi-indonesia-di-pasar-global",
-    title: "Peluang Ekspor Kopi Indonesia di Pasar Global",
-    titleEn: "Export Opportunities for Indonesian Specialty Coffee in the Global Market",
+    id: "pemanfaatan-kulit-kopi-pakan-ternak-ruminansia",
+    slug: "pemanfaatan-kulit-kopi-pakan-ternak-ruminansia",
+    title: "Potensi & Formulasi Kulit Kopi sebagai Pakan Ternak Ruminansia Berkualitas",
+    titleEn: "Utilization & Formulation of Sun-Dried Coffee Husk in High-Quality Livestock Feed",
     summary:
-      "Permintaan kopi spesialti Indonesia terus meningkat di pasar Eropa, Amerika, dan Asia Timur berkat profil rasa vulkanik yang kaya dan metode pengolahan yang semakin maju.",
+      "Kaya serat kasar (crude fiber 18-24%) dan energi terdigestikan (TDN 58-64%), kulit kopi olahan menjadi alternatif pakan ekonomis berdaya saing tinggi untuk sapi perah, sapi potong, dan domba.",
     summaryEn:
-      "Demand for Indonesian specialty single-origin coffees continues to surge across Europe, North America, and East Asia, driven by unique microclimates and refined post-harvest processing.",
-    date: "20 Agustus 2026",
-    isoDate: "2026-08-20",
-    author: "Tim Riset Agronomi & Ekspor",
-    authorRole: "Divisi Riset Komoditas & Pasar Global",
-    authorRoleEn: "Agronomy & Export Research Team",
-    readTime: "4 menit baca",
+      "Rich in digestible crude fiber (18-24%) and metabolizable energy (TDN 58-64%), sun-dried coffee husk is emerging as a cost-effective, sustainable feed ingredient for dairy, beef cattle, and sheep.",
+    date: "20 September 2026",
+    isoDate: "2026-09-20",
+    author: "Tim Riset Nutrisi Ternak & Agronomi",
+    authorRole: "Divisi Nutrisi Hewan & Riset Formulasi Pakan",
+    authorRoleEn: "Animal Nutrition & Feed Formulation Division",
+    readTime: "5 menit baca",
     category: "Commodities",
-    categoryLabel: "Komoditas",
-    thumbnail: "/images/articles/coffee-cherries.jpg",
+    categoryLabel: "Nutrisi Ternak",
+    thumbnail: "/images/articles/feed-livestock.jpg",
     featured: true,
     keyTakeaways: [
-      "Permintaan kopi spesialti Indonesia bertumbuh pesat di Eropa, Amerika Utara, dan Asia Timur.",
-      "Karakteristik tanah vulkanik memberikan cita rasa full body, aroma rempah, dan keasaman seimbang.",
-      "Standar mutu ekspor mensyaratkan kadar air 11%–12,5% dan kualifikasi Grade 1 (spesialti).",
-      "Kemitraan langsung dengan kelompok tani menjamin pemetikan hanya buah merah (red cherries only) dan ketertelusuran penuh.",
+      "Kulit kopi kering olahan mengandung protein kasar 10.5% - 12.5% dan Total Digestible Nutrients (TDN) mencapai 58% - 64%.",
+      "Berfungsi sebagai substitusi parsial silase jagung, bungkil sawit (PKE), dan pollard gandum dalam ransum TMR.",
+      "Proses pengeringan terkontrol dan skrining aflatoksin menjamin keamanan pakan sesuai standar karantina internasional.",
+      "Ukuran partikel terayak mempermudah homogenitas pencampuran pakan di peternakan intensif.",
     ],
     keyTakeawaysEn: [
-      "Indonesian specialty coffee demand is rapidly expanding in Europe, North America, and East Asia.",
-      "Volcanic mineral soils deliver distinctive full-bodied complexity, spicy notes, and balanced acidity.",
-      "Export quality standards enforce moisture levels of 11%–12.5% and Grade 1 specialty grading.",
-      "Direct farmer cooperative partnerships guarantee selective red cherry picking and end-to-end traceability.",
+      "Sun-dried coffee husk delivers crude protein levels of 10.5% – 12.5% with Total Digestible Nutrients (TDN) around 58% – 64%.",
+      "Serves as an economical partial substitute for corn silage, palm kernel expeller (PKE), and wheat pollard in TMR rations.",
+      "Controlled drying and rigorous aflatoxin screening ensure full compliance with international veterinary quarantine standards.",
+      "Uniform screened particle sizing facilitates seamless homogeneous mixing in intensive feedlot rations.",
     ],
-    content: `Permintaan kopi spesialti asal Indonesia terus menunjukkan tren positif di pasar internasional, terutama di kawasan Eropa, Amerika Utara, dan Asia Timur. Keanekaragaman geografis dan kesuburan tanah vulkanik kepulauan nusantara melahirkan profil rasa unik yang sulit ditandingi oleh negara produsen lain.
+    content: `Kenaikan harga bahan baku pakan konsentrat global mendorong peternakan intensif dan pabrik pakan (feed mills) mencari alternatif sumber serat dan energi yang terbarukan. Kulit kopi (coffee husk) hasil samping pengolahan kopi dataran tinggi Indonesia memiliki profil nutrisi unggul yang menjadikannya komoditas pakan bernilai ekonomis tinggi.
 
-### Keunggulan Cita Rasa dan Varietas
-Indonesia dikenal luas berkat ragam varietas Arabika dan Robusta unggulan. Arabika dari dataran tinggi nusantara menawarkan karakter full body, aroma rempah, serta tingkat keasaman yang seimbang. Di sisi lain, biji Robusta banyak diminati oleh industri pemanggangan (roastery) komersial global karena memiliki crema yang tebal, stabilitas rasa, dan kadar kafein yang ideal untuk racikan espresso.
+### Profil Nutrisi Kulit Kopi untuk Ternak
+Berdasarkan uji laboratorium proksimat, kulit kopi kering olahan mengandung:
+- **Serat Kasar (Crude Fiber):** 18,0% – 24,0%, sangat optimal untuk stimulasi motilitas rumen dan menjaga kestabilan pH pencernaan ternak.
+- **Protein Kasar (Crude Protein):** 10,5% – 12,5%, melengkapi kebutuhan asam amino harian sapi perah dan penggemukan.
+- **Total Digestible Nutrients (TDN):** 58,0% – 64,0%, menyediakan pasokan energi metabolisme yang konsisten.
+- **Kandungan Mineral:** Kaya akan kalium, kalsium, dan magnesium alami yang bermanfaat bagi metabolisme laktasi dan pembentukan otot.
 
-### Standar Mutu Ekspor Internasional
-Untuk menembus pasar luar negeri secara konsisten, pemenuhan standar mutu menjadi keharusan:
-- **Kadar Air (Moisture Content):** Dijaga ketat pada batas 11%–12,5% guna menghindari timbunan jamur selama proses pengapalan laut.
-- **Tingkat Cacat (Defect Rate):** Penerapan pemilahan (grading) manual dan mekanis untuk memastikan masuk dalam kualifikasi Grade 1 (spesialti / premium grade).
-- **Metode Pengolahan:** Menyediakan variasi proses Full Washed, Natural, Honey, hingga teknik khas nusantara Wet-Hulled (Giling Basah).
+### Aplikasi dalam Ransum Peternakan
+Kulit kopi olahan dapat diaplikasikan hingga 15% - 25% dari total campuran ransum pakan (Total Mixed Ration / TMR):
+1. **Sapi Perah:** Merangsang produksi asetat di rumen yang berperan langsung dalam peningkatan kadar lemak susu (milk fat percentage).
+2. **Sapi Potong & Feedlot:** Mempercepat pertambahan bobot harian (ADG / Average Daily Gain) dengan palatabilitas aroma karamel yang disukai ternak.
+3. **Kambing & Domba:** Menjadi pakan serat basal berkualitas yang tahan disimpan lama dalam kondisi kering berpori.
 
-### Komitmen Rantai Pasok Berkelanjutan
-Melalui kemitraan langsung dengan kelompok tani lokal, kami memastikan praktik pemetikan hanya buah merah (red cherries only), penjemuran alami, dan kepastian pasokan dalam skala kontainer. Standar keterlacakan (traceability) ini memberikan jaminan rasa aman dan transparansi bagi para importir di seluruh dunia.`,
-    contentEn: `Demand for Indonesian specialty single-origin coffees continues to demonstrate a strong upward trajectory in the international market, particularly across Europe, North America, and East Asia. The nation's diverse geographical microclimates and volcanic mineral-rich soils produce distinctive flavor profiles that remain unmatched by other producing regions.
+Banyumili Agro Export menyediakan pasokan kulit kopi mutu pakan dalam bentuk utuh kering dan cacahan terayak (screened flakes), dikemas dalam karung PP 50kg atau Jumbo Bag 1 ton siap ekspor.`,
+    contentEn: `Rising global grain and feed costs are prompting livestock producers and commercial feed mills to seek sustainable, fiber-rich feed alternatives. Coffee husk—the nutritious outer pulp of coffee cherries from Indonesian highlands—presents an outstanding nutritional profile that positions it as a competitive agro-industrial feed ingredient.
 
-### Flavor Complexity and Varietal Excellence
-Indonesia is internationally renowned for its celebrated Arabica and Robusta cultivars. Highland Arabica delivers full-bodied character, spicy floral aromas, and balanced crisp acidity. Meanwhile, Indonesian fine Robusta is extensively sought after by global commercial roasteries for its dense crema, round sweetness, and optimal caffeine profile tailored for premium espresso blends.
+### Nutritional Composition for Ruminants
+Proximate analysis consistently demonstrates the robust nutritional value of processed coffee husk:
+- **Crude Fiber (CF):** 18.0% – 24.0%, vital for rumen function and maintaining healthy digestion in ruminants.
+- **Crude Protein (CP):** 10.5% – 12.5%, contributing essential amino building blocks to daily rations.
+- **Total Digestible Nutrients (TDN):** 58.0% – 64.0%, providing reliable metabolic energy.
+- **Mineral Density:** Naturally abundant in potassium, calcium, and organic trace minerals supporting bone health and lactation.
 
-### International Export Quality Standards
-To consistently meet the rigorous requirements of overseas buyers, our processing adheres strictly to standardized parameters:
-- **Moisture Content:** Strictly regulated between 11%–12.5% to prevent mold formation during extended maritime transit.
-- **Defect Rate:** Comprehensive manual and optical triple-screen grading ensuring Grade 1 (Specialty / Premium export grade) standards.
-- **Processing Diversity:** Fully capable of delivering Full Washed, Natural, Honey, and traditional Indonesian Wet-Hulled (Giling Basah) methods.
-
-### Sustainable Supply Chain Commitment
-Through direct cooperation with local farming communities, we enforce selective red cherry harvesting, natural sun drying, and container-scale reliability. This end-to-end traceability guarantees complete transparency and long-term peace of mind for global importers.`,
+### Total Mixed Ration (TMR) Integration
+Processed coffee husk can be formulated up to 15% – 25% in livestock rations:
+1. **Dairy Cattle:** Enhances butterfat content by promoting acetate production in the rumen.
+2. **Beef Cattle Feedlots:** Accelerates daily live-weight gain cost-effectively with high natural palatability.
+3. **Sheep & Goats:** Provides long-shelf-life concentrated fiber in durable dry form.`,
     sections: [
       {
-        heading: "Keunggulan Cita Rasa dan Varietas",
-        headingEn: "Flavor Complexity and Varietal Excellence",
+        heading: "Profil Nutrisi Kulit Kopi untuk Ternak",
+        headingEn: "Nutritional Composition for Ruminants",
         content:
-          "Indonesia dikenal luas berkat ragam varietas Arabika dan Robusta unggulan. Arabika dari dataran tinggi nusantara menawarkan karakter full body, aroma rempah, serta tingkat keasaman yang seimbang. Di sisi lain, biji Robusta banyak diminati oleh industri pemanggangan (roastery) komersial global karena memiliki crema yang tebal, stabilitas rasa, dan kadar kafein yang ideal untuk racikan espresso.",
+          "Kulit kopi mengandung serat kasar 18-24%, protein 10.5-12.5%, dan TDN 58-64%, menjadikannya sumber serat dan energi ekonomis yang ideal untuk ruminansia.",
         contentEn:
-          "Indonesia is internationally renowned for its celebrated Arabica and Robusta cultivars. Highland Arabica delivers full-bodied character, spicy floral aromas, and balanced crisp acidity. Meanwhile, Indonesian fine Robusta is extensively sought after by global commercial roasteries for its dense crema, round sweetness, and optimal caffeine profile tailored for premium espresso blends.",
+          "Coffee husk delivers 18-24% crude fiber, 10.5-12.5% protein, and 58-64% TDN, making it an ideal cost-effective fiber and energy source for ruminants.",
       },
       {
-        heading: "Standar Mutu Ekspor Internasional",
-        headingEn: "International Export Quality Standards",
+        heading: "Aplikasi dalam Ransum Peternakan",
+        headingEn: "Total Mixed Ration (TMR) Integration",
         content:
-          "Untuk menembus pasar luar negeri secara konsisten, pemenuhan standar mutu menjadi keharusan melalui parameter terukur:",
+          "Dapat diaplikasikan hingga 15-25% dalam ransum pakan sapi perah, sapi potong, dan kambing untuk meningkatkan efisiensi pakan dan produksi.",
         contentEn:
-          "To consistently meet the rigorous requirements of overseas buyers, our processing adheres strictly to standardized parameters:",
-        bulletPoints: [
-          "**Kadar Air (Moisture Content):** Dijaga ketat pada batas 11%–12,5% guna menghindari timbunan jamur selama proses pengapalan laut.",
-          "**Tingkat Cacat (Defect Rate):** Penerapan pemilahan (grading) manual dan mekanis untuk memastikan masuk dalam kualifikasi Grade 1 (spesialti / premium grade).",
-          "**Metode Pengolahan:** Menyediakan variasi proses Full Washed, Natural, Honey, hingga teknik khas nusantara Wet-Hulled (Giling Basah).",
-        ],
-        bulletPointsEn: [
-          "**Moisture Content:** Strictly regulated between 11%–12.5% to prevent mold formation during extended maritime transit.",
-          "**Defect Rate:** Comprehensive manual and optical triple-screen grading ensuring Grade 1 (Specialty / Premium export grade) standards.",
-          "**Processing Diversity:** Fully capable of delivering Full Washed, Natural, Honey, and traditional Indonesian Wet-Hulled (Giling Basah) methods.",
-        ],
-      },
-      {
-        heading: "Komitmen Rantai Pasok Berkelanjutan",
-        headingEn: "Sustainable Supply Chain Commitment",
-        content:
-          "Melalui kemitraan langsung dengan kelompok tani lokal, kami memastikan praktik pemetikan hanya buah merah (red cherries only), penjemuran alami, dan kepastian pasokan dalam skala kontainer. Standar keterlacakan (traceability) ini memberikan jaminan rasa aman dan transparansi bagi para importir di seluruh dunia.",
-        contentEn:
-          "Through direct cooperation with local farming communities, we enforce selective red cherry harvesting, natural sun drying, and container-scale reliability. This end-to-end traceability guarantees complete transparency and long-term peace of mind for global importers.",
+          "Can be integrated up to 15-25% in dairy, beef, and goat feed formulations to optimize cost efficiency and livestock performance.",
       },
     ],
   },
   {
-    id: "mengapa-lada-hitam-indonesia-diminati-dunia",
-    slug: "mengapa-lada-hitam-indonesia-diminati-dunia",
-    title: "Mengapa Lada Hitam Indonesia Diminati Dunia?",
-    titleEn: "Why Indonesian Black Pepper Remains the Global Industry Standard",
+    id: "keunggulan-kulit-kopi-dibanding-pakan-konvensional",
+    slug: "keunggulan-kulit-kopi-dibanding-pakan-konvensional",
+    title: "Keunggulan Kulit Kopi Kering Dibandingkan PKE dan Pollard dalam Ransum Sapi",
+    titleEn: "Comparative Advantages of Sun-Dried Coffee Husk vs PKE and Wheat Pollard in Cattle Diets",
     summary:
-      "Lada hitam asal Indonesia terkenal dengan densitas tinggi dan kadar piperin optimal, menjadikannya pilihan utama industri pengolahan pangan dan rempah internasional.",
+      "Analisis perbandingan efisiensi biaya, kecernaan serat, dan palatabilitas antara kulit kopi kering olahan dengan Palm Kernel Expeller (PKE) dan pollard gandum.",
     summaryEn:
-      "Lampung black pepper is globally renowned for its high bulk density and optimal piperine potency, making it the premier choice for international food seasoning manufacturers.",
-    date: "12 Agustus 2026",
-    isoDate: "2026-08-12",
-    author: "Divisi Kualitas & Rempah",
-    authorRole: "Pakar Standarisasi Mutu & Rempah Ekspor",
-    authorRoleEn: "Quality & Spices Division",
-    readTime: "5 menit baca",
-    category: "Quality Standards",
-    categoryLabel: "Standar Kualitas",
-    thumbnail: "/images/articles/black-pepper-drying.jpg",
-    featured: false,
-    keyTakeaways: [
-      "Nilai kerapatan massa (bulk density) lada hitam Indonesia mencapai 500–580 g/l.",
-      "Kandungan piperin alami tinggi memberikan sensasi pedas kuat dan efisiensi ekstraksi maksimal.",
-      "Proses pembersihan mesin spiral menjamin kebersihan di bawah ambang batas cemaran 1%.",
-      "Kepatuhan standar mutu ASTA dan ESA dengan sertifikasi fitosanitari resmi.",
-    ],
-    keyTakeawaysEn: [
-      "High bulk density ranging from 500–580 g/L indicating premium physical maturity.",
-      "Potent natural piperine content delivers superior pungency and oleoresin extraction yield.",
-      "Spiral cleaner processing guarantees extraneous matter levels below 1%.",
-      "Full compliance with ASTA and ESA standards alongside official phytosanitary certifications.",
-    ],
-    content: `Lada hitam asal Indonesia dengan kualitas ekspor premium telah lama memegang reputasi bergengsi di industri rempah global. Aroma pedasnya yang tajam, warna hitam pekat, serta konsistensi densitasnya menjadikan komoditas ini bahan baku utama bagi industri pengolahan pangan, ekstraksi minyak atsiri, dan produsen bumbu internasional.
-
-### Karakteristik Kerapatan dan Kadar Piperin Tinggi
-Keunggulan kompetitif utama lada hitam nusantara terletak pada nilai kerapatan massa (bulk density) yang mencapai rentang 500–550 g/l atau lebih. Biji lada yang padat menandakan kematangan optimal saat panen. Selain itu, kandungan piperin alaminya memberikan tingkat kepedasan yang khas dan tahan lama, menjadikannya sangat efisien untuk proses ekstraksi skala industri.
-
-### Spesifikasi dan Kebersihan Bahan Baku
-Pasar global menetapkan regulasi batas cemaran yang ketat. Pemenuhan parameter ekspor mencakup:
-- **Tingkat Kebersihan (Cleanliness):** Menggunakan mesin pembersih spiral (spiral cleaner) untuk menyaring debu, ranting, dan benda asing di bawah ambang batas 1%.
-- **Kadar Air Terkontrol:** Maksimal 12%–13% guna menjamin daya simpan biji lada tetap stabil dan renyah.
-- **Keamanan Pangan (Food Safety):** Bebas dari cemaran mikrobiologi (seperti Salmonella dan E. coli) serta lolos batas residu pestisida sesuai standar ASTA (American Spice Trade Association).
-
-### Solusi Pasokan Skala Besar
-Banyumili Agro Export menyediakan opsi pengemasan dalam karung goni tradisional 50 kg maupun kantong PP multilapis bersegel, siap dikirim menggunakan skema FOB maupun CIF ke berbagai pelabuhan utama dunia.`,
-    contentEn: `Indonesian premium export-grade black pepper has long enjoyed a world-class reputation within the global spice industry. Its pungent sharp aroma, bold dark berry color, and dense uniform structure make it an indispensable raw material for international food manufacturers, oleoresin extractors, and seasoning processors worldwide.
-
-### Superior Bulk Density and High Piperine Potency
-The foremost competitive advantage of Indonesian black pepper lies in its outstanding bulk density, consistently measuring 500–580 g/L. Dense berries reflect optimal physiological maturity at harvest. Furthermore, its concentrated natural piperine alkaloid delivers signature lingering pungency, yielding superior efficiency for commercial extraction.
-
-### Cleanliness and Stringent Physical Specifications
-Global food safety regulations require strict contamination controls. Our export processing guarantees:
-- **Cleanliness:** Machine-cleaned using industrial spiral separators to remove dust, pinheads, and extraneous matter below 1%.
-- **Moisture Control:** Maintained at a maximum of 12.0%–13.0% to prevent mold growth and preserve berry firmness during sea voyages.
-- **Food Safety:** Certified free from harmful microbiological pathogens (Salmonella, E. coli) and compliant with ASTA and ESA pesticide residue limits.
-
-### High-Volume Export Supply Solutions
-Banyumili Agro Export offers packaging in heavy-duty 50 kg jute sacks or multi-wall UV-stabilized PP bags, ready for shipping under FOB (Panjang / Tanjung Priok) or CIF terms to major ports across the globe.`,
-    sections: [
-      {
-        heading: "Karakteristik Kerapatan dan Kadar Piperin Tinggi",
-        headingEn: "Superior Bulk Density and High Piperine Potency",
-        content:
-          "Keunggulan kompetitif utama lada hitam nusantara terletak pada nilai kerapatan massa (bulk density) yang mencapai rentang 500–550 g/l atau lebih. Biji lada yang padat menandakan kematangan optimal saat panen. Selain itu, kandungan piperin alaminya memberikan tingkat kepedasan yang khas dan tahan lama, menjadikannya sangat efisien untuk proses ekstraksi skala industri.",
-        contentEn:
-          "The foremost competitive advantage of Indonesian black pepper lies in its outstanding bulk density, consistently measuring 500–580 g/L. Dense berries reflect optimal physiological maturity at harvest. Furthermore, its concentrated natural piperine alkaloid delivers signature lingering pungency, yielding superior efficiency for commercial extraction.",
-      },
-      {
-        heading: "Spesifikasi dan Kebersihan Bahan Baku",
-        headingEn: "Cleanliness and Stringent Physical Specifications",
-        content:
-          "Pasar global menetapkan regulasi batas cemaran yang ketat. Pemenuhan parameter ekspor mencakup:",
-        contentEn:
-          "Global food safety regulations require strict contamination controls. Our export processing guarantees:",
-        bulletPoints: [
-          "**Tingkat Kebersihan (Cleanliness):** Menggunakan mesin pembersih spiral (spiral cleaner) untuk menyaring debu, ranting, dan benda asing di bawah ambang batas 1%.",
-          "**Kadar Air Terkontrol:** Maksimal 12%–13% guna menjamin daya simpan biji lada tetap stabil dan renyah.",
-          "**Keamanan Pangan (Food Safety):** Bebas dari cemaran mikrobiologi (seperti Salmonella dan E. coli) serta lolos batas residu pestisida sesuai standar ASTA (American Spice Trade Association).",
-        ],
-        bulletPointsEn: [
-          "**Cleanliness:** Machine-cleaned using industrial spiral separators to remove dust, pinheads, and extraneous matter below 1%.",
-          "**Moisture Control:** Maintained at a maximum of 12.0%–13.0% to prevent mold growth and preserve berry firmness during sea voyages.",
-          "**Food Safety:** Certified free from harmful microbiological pathogens (Salmonella, E. coli) and compliant with ASTA and ESA pesticide residue limits.",
-        ],
-      },
-      {
-        heading: "Solusi Pasokan Skala Besar",
-        headingEn: "High-Volume Export Supply Solutions",
-        content:
-          "Banyumili Agro Export menyediakan opsi pengemasan dalam karung goni tradisional 50 kg maupun kantong PP multilapis bersegel, siap dikirim menggunakan skema FOB maupun CIF ke berbagai pelabuhan utama dunia.",
-        contentEn:
-          "Banyumili Agro Export offers packaging in heavy-duty 50 kg jute sacks or multi-wall UV-stabilized PP bags, ready for shipping under FOB (Panjang / Tanjung Priok) or CIF terms to major ports across the globe.",
-      },
-    ],
-  },
-  {
-    id: "potensi-kayu-manis-indonesia-di-industri-global",
-    slug: "potensi-kayu-manis-indonesia-di-industri-global",
-    title: "Potensi Kayu Manis Indonesia di Industri Global",
-    titleEn: "The Growing Potential of Indonesian Cassia Cinnamon Across World Industries",
-    summary:
-      "Kayu manis Kerinci Korintje memiliki aroma manis alami yang khas dan kadar minyak atsiri yang tinggi, sangat diminati oleh industri kuliner, farmasi, dan minuman modern.",
-    summaryEn:
-      "Kerinci Korintje cassia cinnamon possesses superior natural cinnamaldehyde content and high volatile oils, widely sought after in premium culinary, pharmaceutical, and beverage sectors.",
-    date: "5 Agustus 2026",
-    isoDate: "2026-08-05",
-    author: "Tim Analisis Perdagangan Internasional",
-    authorRole: "Divisi Wawasan Pasar & Komoditas Rempah",
-    authorRoleEn: "International Trade Insights Team",
+      "A comparative study on cost efficiency, fiber digestibility, and palatability between sun-dried coffee husk, Palm Kernel Expeller (PKE), and wheat pollard.",
+    date: "14 September 2026",
+    isoDate: "2026-09-14",
+    author: "Tim Litbang Pakan & Formulasi",
+    authorRole: "Divisi Formulasi & Efisiensi Ransum Ternak",
+    authorRoleEn: "Feed Formulation & Rations Efficiency Division",
     readTime: "4 menit baca",
-    category: "Market Trends",
-    categoryLabel: "Tren Pasar",
-    thumbnail: "/images/articles/cinnamon-harvest.jpg",
-    featured: false,
+    category: "Industry Insight",
+    categoryLabel: "Efisiensi Pakan",
+    thumbnail: "/images/hero/hero-animal-feed.jpg",
+    featured: true,
     keyTakeaways: [
-      "Indonesia merupakan produsen dan eksportir kayu manis Cassia Vera (Korintje) terbesar dunia.",
-      "Kandungan minyak atsiri (Volatile Oil) 2,5%–3,5% menghasilkan rasa manis hangat alami tanpa bahan pemutih.",
-      "Aplikasi luas meliputi industri bakery, extract flavoring, farmasi, suplemen, dan wewangian.",
-      "Tersedia berbagai pilihan spesifikasi ekspor: AA & A Quills, Cut Sticks, dan Clean Broken (KBBL/KBC).",
+      "Kulit kopi kering menawarkan palatabilitas lebih tinggi dibanding PKE yang cenderung berbau tajam dan kurang disukai ternak.",
+      "Kandungan serat yang mudah terfermentasi di rumen membantu mencegah asidosis subakut (SARA) pada sistem feedlot intensif.",
+      "Kadar air terkontrol ≤ 11.5% memastikan ketahanan simpan 18 bulan tanpa degradasi mikrobiologi.",
+      "Bebas dari kontaminasi cangkang sawit keras yang berisiko mengikis gigi dan dinding lambung ternak.",
     ],
     keyTakeawaysEn: [
-      "Indonesia is the world's leading producer and exporter of Korintje Cassia Vera cinnamon.",
-      "Rich 2.5%–3.5% volatile oil (cinnamaldehyde) content delivers intense, natural sweet warmth.",
-      "Extensive applications across industrial baking, flavoring extracts, pharmaceuticals, and fragrances.",
-      "Multiple export specifications available: AA & A Quills, precise cut rolls, and Clean Broken (KBBC).",
+      "Sun-dried coffee husk provides superior palatability compared to PKE, which often possesses a pungent odor that cattle resist.",
+      "Easily fermentable fiber structure helps mitigate Subacute Ruminal Acidosis (SARA) in intensive feedlots.",
+      "Controlled moisture ≤ 11.5% guarantees 18-month storage stability without microbiological degradation.",
+      "Completely free of hard palm shell fragments that pose abrasion risks to animal dental health and rumen lining.",
     ],
-    content: `Indonesia merupakan salah satu eksportir kayu manis terbesar di dunia, dengan jenis Cassia Vera (terkenal sebagai Korintje Cinnamon) sebagai produk unggulan utama. Kulit kayu manis jenis ini terkenal beraroma manis hangat alami, bertekstur tebal, dan memiliki konsentrasi minyak atsiri yang melimpah.
+    content: `Dalam manajemen peternakan komersial, biaya pakan mencakup 60% hingga 70% dari total pengeluaran operasional. Penggunaan bahan pakan alternatif seperti Palm Kernel Expeller (PKE) dan pollard gandum sering kali menghadapi tantangan fluktuasi harga global dan palatabilitas yang rendah pada ternak.
 
-### Pemanfaatan Multisektor di Pasar Internasional
-Kayu manis Korintje menjadi bahan penting di berbagai lini industri global:
-- **Industri Kuliner & Bakery:** Digunakan sebagai aroma utama pada roti, kue, bumbu kari, serta taburan minuman kopi dan cokelat modern.
-- **Industri Farmasi & Suplemen:** Kandungan cinnamaldehyde dimanfaatkan sebagai antioksidan alami, antiinflamasi, dan pengatur kadar gula darah.
-- **Parfum & Kosmetik:** Minyak atsiri kayu manis diekstraksi untuk bahan aroma wewangian premium.
+### Perbandingan Karakteristik Pakan
+Kulit kopi kering olahan (Sun-Dried Coffee Husk) memberikan beberapa keunggulan kompetitif:
+1. **Tingkat Palatabilitas Tinggi:** Aroma alami buah kopi yang harum dan manis memicu respons konsumsi makan yang cepat sejak hari pertama pemberian tanpa penolakan.
+2. **Kecernaan Serat Optimal:** Struktur selulosa dan hemiselulosa kulit kopi lebih cepat dicerna mikroba rumen dibanding serat lignin keras pada cangkang sawit.
+3. **Bebas Kontaminan Keras:** Melewati tahapan de-stoning dan sortasi mekanis sehingga bebas dari partikel tajam atau batu.
 
-### Klasifikasi Mutu Kayu Manis Ekspor
-Kami menyortir kayu manis berdasarkan grade fisik dan kadar minyak atsiri (Volatile Oil):
-- **Grade AA & A Sticks (Quills):** Batang kulit kayu utuh yang tergulung rapi secara simetris, dipotong presisi berukuran 8 cm, 10 cm, atau 12 cm tanpa kotoran kulit luar.
-- **Broken & Split (KBBL/KBC):** Patahan kulit kayu manis bersih dengan kadar minyak tinggi, ideal untuk industri penggilingan bubuk (powder).
-- **Kadar Air:** Dijemur menggunakan panas matahari langsung hingga tingkat kelembapan berada di bawah 14%.
+Banyumili Agro Export memproses kulit kopi dengan standar pengeringan higienis untuk menghasilkan bahan pakan berkualitas yang tahan disimpan hingga 18 bulan.`,
+    contentEn: `In modern commercial livestock management, feeding expenses account for 60% to 70% of total operational costs. Relying solely on conventional ingredients like Palm Kernel Expeller (PKE) and wheat pollard exposes feedlot operations to sharp price volatility and inconsistent palatability.
 
-### Kesiapan Dokumen dan Pengiriman
-Setiap pengiriman dilengkapi dokumen karantina tumbuhan resmi (Phytosanitary Certificate) serta perlakuan fumigasi standar ekspor guna menjamin produk tiba di negara tujuan dalam kondisi prima tanpa hambatan kepabeanan.`,
-    contentEn: `Indonesia stands as one of the world's largest exporters of cinnamon, with Indonesian Korintje Cassia Vera (Cinnamomum burmannii) as its crown jewel. Harvested from the slopes of Mount Kerinci in Sumatra, this cinnamon is celebrated globally for its naturally sweet, warm aromatic profile, thick bark texture, and abundant volatile essential oil content.
-
-### Multi-Sector Industrial Utilization Worldwide
-Korintje cassia is an essential ingredient across global industrial sectors:
-- **Culinary & Bakery Industries:** The primary spice flavoring for pastries, confectionery, curry seasoning blends, and modern specialty beverage toppings.
-- **Pharmaceuticals & Health Supplements:** High natural cinnamaldehyde content is utilized for its potent antioxidant, anti-inflammatory, and metabolic-support properties.
-- **Perfumery & Cosmetics:** Refined volatile oils are steam-extracted as key aromatic base notes in luxury perfumery.
-
-### Export Quality Classification and Grades
-We carefully grade and process cassia cinnamon according to physical form and volatile oil levels:
-- **Grade AA & A Sticks (Quills):** Symmetrically double-rolled intact bark sticks, precisely cut to lengths of 6 cm, 8 cm, 10 cm, or 12 cm, free from outer epidermal impurities.
-- **Clean Broken & Split (KBBC / KBC):** Clean broken bark pieces with high oil concentration, ideal for industrial spice grinding and extract manufacturing.
-- **Moisture Control:** Thoroughly sun-dried to maintain moisture safely below 14.0%.
-
-### Export Documentation and Quarantine Compliance
-Every ocean consignment is supported by official Phytosanitary Certificates issued by the Indonesian Quarantine Agency, alongside export fumigation treatments to guarantee seamless customs clearance at destination ports.`,
+### Competitive Advantages of Sun-Dried Coffee Husk
+Sun-dried coffee husk presents clear advantages:
+1. **Superior Feed Ingestion & Palatability:** The natural sweet aromatic profile stimulates immediate feed intake and prevents sorted leftovers in troughs.
+2. **Rumen-Friendly Digestible Fiber:** Cellulose and hemicellulose fibers in coffee husk are rapidly metabolized by rumen flora without abrasive abrasive residue.
+3. **Free from Hard Shell Contaminants:** Mechanically de-stoned and sieved to eliminate sharp stone debris.`,
     sections: [
       {
-        heading: "Pemanfaatan Multisektor di Pasar Internasional",
-        headingEn: "Multi-Sector Industrial Utilization Worldwide",
+        heading: "Perbandingan Karakteristik Pakan",
+        headingEn: "Competitive Advantages of Sun-Dried Coffee Husk",
         content:
-          "Kayu manis Korintje menjadi bahan penting di berbagai lini industri global:",
+          "Kulit kopi menawarkan palatabilitas tinggi, kecernaan serat optimal tanpa serpihan cangkang keras, dan efisiensi ransum pakan yang superior.",
         contentEn:
-          "Korintje cassia is an essential ingredient across global industrial sectors:",
-        bulletPoints: [
-          "**Industri Kuliner & Bakery:** Digunakan sebagai aroma utama pada roti, kue, bumbu kari, serta taburan minuman kopi dan cokelat modern.",
-          "**Industri Farmasi & Suplemen:** Kandungan cinnamaldehyde dimanfaatkan sebagai antioksidan alami, antiinflamasi, dan pengatur kadar gula darah.",
-          "**Parfum & Kosmetik:** Minyak atsiri kayu manis diekstraksi untuk bahan aroma wewangian premium.",
-        ],
-        bulletPointsEn: [
-          "**Culinary & Bakery Industries:** The primary spice flavoring for pastries, confectionery, curry seasoning blends, and modern specialty beverage toppings.",
-          "**Pharmaceuticals & Health Supplements:** High natural cinnamaldehyde content is utilized for its potent antioxidant, anti-inflammatory, and metabolic-support properties.",
-          "**Perfumery & Cosmetics:** Refined volatile oils are steam-extracted as key aromatic base notes in luxury perfumery.",
-        ],
+          "Coffee husk delivers high palatability, optimal fiber digestibility without abrasive shell fragments, and superior feed ration efficiency.",
       },
+    ],
+  },
+  {
+    id: "standar-karantina-bebas-aflatoksin-ekspor-pakan",
+    slug: "standar-karantina-bebas-aflatoksin-ekspor-pakan",
+    title: "Standar Karantina & Jaminan Bebas Aflatoksin pada Ekspor Pakan Ternak Indonesia",
+    titleEn: "Quarantine Compliance & Aflatoxin Safety in Indonesian Animal Feed Exports",
+    summary:
+      "Bagaimana kontrol kadar air ≤ 11.5% dan pengeringan higienis menjamin produk pakan kulit kopi Banyumili Agro Export lolos uji laboratorium karantina hewan internasional.",
+    summaryEn:
+      "How precision moisture control ≤ 11.5% and hygienic drying guarantee Banyumili Agro Export's coffee husk feed complies with international veterinary quarantine standards.",
+    date: "06 September 2026",
+    isoDate: "2026-09-06",
+    author: "Tim Kendali Mutu & Regulasi Karantina",
+    authorRole: "Divisi Kualitas & Kepatuhan Ekspor",
+    authorRoleEn: "Quality Assurance & Export Compliance Division",
+    readTime: "4 menit baca",
+    category: "Quality Standards",
+    categoryLabel: "Standar Karantina",
+    thumbnail: "/images/about/export-warehouse.jpg",
+    featured: true,
+    keyTakeaways: [
+      "Mikotoksin seperti Aflatoksin B1 dan Ochratoxin A adalah parameter paling krusial yang diuji oleh karantina hewan di pelabuhan ekspor.",
+      "Pengeringan cepat dan kunci kadar air ≤ 11.5% menghentikan pertumbuhan kapang Aspergillus sejak hari pertama pascapanen.",
+      "Setiap pengiriman kontainer FCL dilengkapi sertifikat fitosanitari resmi, Certificate of Origin (COO), dan Certificate of Analysis (COA).",
+      "Pemisahan magnetik menjamin persentase extraneous matter < 0.5%, bebas dari logam dan batu berbahaya.",
+    ],
+    keyTakeawaysEn: [
+      "Mycotoxins such as Aflatoxin B1 and Ochratoxin A are the primary parameters tested by veterinary quarantine authorities globally.",
+      "Rapid dehydration and locking moisture below 11.5% permanently halts Aspergillus mold development from day one.",
+      "Every containerized shipment is accompanied by official Phytosanitary certificates, COO, and accredited laboratory COA.",
+      "Magnetic and physical screening ensures foreign matter below 0.5%, free from hazardous stones and metals.",
+    ],
+    content: `Keamanan pakan ternak (feed safety) merupakan pilar utama perdagangan agro-komoditas internasional. Negara-negara tujuan ekspor di Asia Timur, Timur Tengah, dan Eropa memberlakukan batas toleransi yang sangat ketat terhadap keberadaan mikotoksin dan kontaminan fisik dalam bahan pakan ternak impor.
+
+### Pengendalian Risiko Aflatoksin
+Aflatoksin B1 yang dihasilkan oleh jamur Aspergillus flavus dapat merusak hati ternak dan mencemari residu susu sapi perah. Banyumili Agro Export mencegah risiko ini melalui protokol mutu berstandar ekspor:
+- **Pengeringan Kilat Higienis:** Menurunkan kadar air bahan baku dari 75% menjadi di bawah 11.5% dalam waktu singkat.
+- **Penyimpanan Terkondisi:** Bahan baku disimpan di gudang berventilasi baik di atas palet kayu tanpa kontak langsung dengan lantai semen.
+- **Skrining Laboratorium:** Setiap batch produksi diuji menggunakan metode ELISA/HPLC untuk memastikan batas aflatoksin non-detectable (< 10 ppb), jauh di bawah ambang batas internasional (20–50 ppb).
+
+### Kesiapan Dokumen Ekspor Lengkap
+Semua kargo dikemas dalam karung PP kuat berlapis inner PE atau Jumbo Bag anti-UV, siap diinspeksi oleh Badan Karantina Indonesia di Pelabuhan Tanjung Emas (IDSRG) dengan penerbitan dokumen lengkap.`,
+    contentEn: `Animal feed safety is an uncompromising cornerstone of global agricultural trade. Importing destinations across East Asia, the Middle East, and Europe enforce stringent thresholds regarding mycotoxins and foreign debris in imported animal feedstuffs.
+
+### Aflatoxin Risk Mitigation Protocols
+Aflatoxin B1 produced by Aspergillus flavus can impair livestock organ health and carry over into milk products. Banyumili Agro Export eliminates this hazard through rigorous processing standards:
+- **Rapid Controlled Drying:** Dehydrating raw husk to below 11.5% moisture rapidly after collection.
+- **Ventilated Palletized Warehousing:** Feed is stored on raised pallets in dry, climate-controlled warehouses.
+- **Laboratory Verification:** Every batch is certified via HPLC/ELISA to confirm non-detectable aflatoxin levels (< 10 ppb).`,
+    sections: [
       {
-        heading: "Klasifikasi Mutu Kayu Manis Ekspor",
-        headingEn: "Export Quality Classification and Grades",
+        heading: "Pengendalian Risiko Aflatoksin",
+        headingEn: "Aflatoxin Risk Mitigation Protocols",
         content:
-          "Kami menyortir kayu manis berdasarkan grade fisik dan kadar minyak atsiri (Volatile Oil):",
+          "Pengeringan cepat dan penguncian kadar air di bawah 11.5% menjamin produk bebas aflatoksin (< 10 ppb), memenuhi standar keamanan pakan internasional.",
         contentEn:
-          "We carefully grade and process cassia cinnamon according to physical form and volatile oil levels:",
-        bulletPoints: [
-          "**Grade AA & A Sticks (Quills):** Batang kulit kayu utuh yang tergulung rapi secara simetris, dipotong presisi berukuran 8 cm, 10 cm, atau 12 cm tanpa kotoran kulit luar.",
-          "**Broken & Split (KBBL/KBC):** Patahan kulit kayu manis bersih dengan kadar minyak tinggi, ideal untuk industri penggilingan bubuk (powder).",
-          "**Kadar Air:** Dijemur menggunakan panas matahari langsung hingga tingkat kelembapan berada di bawah 14%.",
-        ],
-        bulletPointsEn: [
-          "**Grade AA & A Sticks (Quills):** Symmetrically double-rolled intact bark sticks, precisely cut to lengths of 6 cm, 8 cm, 10 cm, or 12 cm, free from outer epidermal impurities.",
-          "**Clean Broken & Split (KBBC / KBC):** Clean broken bark pieces with high oil concentration, ideal for industrial spice grinding and extract manufacturing.",
-          "**Moisture Control:** Thoroughly sun-dried to maintain moisture safely below 14.0%.",
-        ],
-      },
-      {
-        heading: "Kesiapan Dokumen dan Pengiriman",
-        headingEn: "Export Documentation and Quarantine Compliance",
-        content:
-          "Setiap pengiriman dilengkapi dokumen karantina tumbuhan resmi (Phytosanitary Certificate) serta perlakuan fumigasi standar ekspor guna menjamin produk tiba di negara tujuan dalam kondisi prima tanpa hambatan kepabeanan.",
-        contentEn:
-          "Every ocean consignment is supported by official Phytosanitary Certificates issued by the Indonesian Quarantine Agency, alongside export fumigation treatments to guarantee seamless customs clearance at destination ports.",
+          "Rapid drying and locking moisture below 11.5% ensures aflatoxin-safe feed (< 10 ppb), satisfying strict international feed safety regulations.",
       },
     ],
   },

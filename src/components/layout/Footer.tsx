@@ -29,8 +29,8 @@ export function Footer() {
             <Logo theme="light" />
             <p className="text-xs sm:text-sm text-[#F8F3E7]/70 leading-relaxed max-w-sm pt-2">
               {t(
-                "Perusahaan ekspor hasil pertanian Indonesia berstandar internasional. Menghadirkan kopi spesialti, lada hitam Lampung berkualitas tinggi, dan kayu manis Kerinci ke pasar B2B global.",
-                "Premier Indonesian agricultural export company. Supplying specialty coffee, high-density Lampung black pepper, and Kerinci cassia cinnamon to global B2B markets."
+                "Spesialis eksportir kulit kopi kering (Premium Sun-Dried Cascara) bermutu tinggi dari sentra dataran tinggi Jawa Tengah. Diproses higienis di atas raised beds untuk industri minuman herbal dan botani global.",
+                "Premier Indonesian exporter specializing in export-grade sun-dried cascara (coffee husk). Hygienically processed on elevated raised beds for global beverage and botanical markets."
               )}
             </p>
           </div>

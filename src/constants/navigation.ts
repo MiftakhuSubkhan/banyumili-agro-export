@@ -50,8 +50,8 @@ export const FOOTER_PRODUCT_LINKS: FooterLinkGroup = {
   title: "Our Products",
   titleId: "Produk Kami",
   links: [
-    { label: "Indonesian Specialty Coffee", labelId: "Kopi Indonesia", href: "/products#coffee" },
-    { label: "High-Density Black Pepper", labelId: "Lada Hitam", href: "/products#black-pepper" },
-    { label: "Premium Cassia Cinnamon", labelId: "Kayu Manis", href: "/products#cinnamon" },
+    { label: "Premium Cascara", labelId: "Premium Cascara", href: "/products" },
+    { label: "Spec Sheet", labelId: "Spec Sheet", href: "/#spec-sheet" },
+    { label: "Sample Request", labelId: "Sample Request", href: "/contact?inquiry=sample" },
   ],
 };
